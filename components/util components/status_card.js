@@ -24,8 +24,8 @@ export class StatusCard extends Component {
 		super();
 		this.wrapperRef = React.createRef();
 		this.state = {
-			sound_level: 75, // better of setting default values from localStorage
-			brightness_level: 100 // setting default value to 100 so that by default its always full.
+			sound_level: 75, 
+			brightness_level: 100
 		};
 	}
 	handleClickOutside = () => {
@@ -44,8 +44,7 @@ export class StatusCard extends Component {
 	handleBrightness = (e) => {
 		this.setState({ brightness_level: e.target.value });
 		localStorage.setItem('brightness-level', e.target.value);
-		// the function below inside brightness() is derived from a linear equation such that at 0 value of slider brightness still remains 0.25 so that it doesn't turn black.
-		document.getElementById('monitor-screen').style.filter = `brightness(${3 / 400 * e.target.value + 0.25})`; // Using css filter to adjust the brightness in the root div.
+		document.getElementById('monitor-screen').style.filter = `brightness(${3 / 400 * e.target.value + 0.25})`; 
 	};
 
 	handleSound = (e) => {
@@ -95,7 +94,7 @@ export class StatusCard extends Component {
 						<img width="16px" height="16px" src="./themes/Yaru/status/network-wireless-signal-good-symbolic.svg" alt="ubuntu wifi" />
 					</div>
 					<div className="w-2/3 flex items-center justify-between text-gray-400">
-						<span>OnePlus 8 Pro</span>
+						<span>Pixel 3</span>
 						<SmallArrow angle="right" />
 					</div>
 				</div>
