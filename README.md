@@ -2,7 +2,7 @@
 
 A clone of Ubuntu 20 built with React and Next.js.
 
-[View Demo](hot-meal.github.io/ubuntu-demo/)
+[View Demo](https://hot-meal.github.io/ubuntu-demo/)
 
 <p align="center">
     <img src="./public/images/readme.png" alt="screenshot of the ubuntu demo desktop with about window open" width="600"> 
