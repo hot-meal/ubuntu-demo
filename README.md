@@ -1,6 +1,6 @@
 #  Ubuntu Demo
 
-A clone of Ubuntu 20 built with React and Next.js.
+A interactive clone of Ubuntu built with React and Next.js.
 
 [View Demo](https://hot-meal.github.io/ubuntu-demo/)
 

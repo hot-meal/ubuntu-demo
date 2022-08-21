@@ -99,12 +99,16 @@ function About() {
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div><span className="font-bold">hot-meal </span></div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Web Developer, Technical Manager &amp; Writer</span></div>
+                <div className="font-normal ml-1">Web Developer, Technical Manager &amp; Writer</div>
             </div>
-            <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
-                <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
-                <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
-            </div>
+            <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
+                <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    Over 15 years experience as a Web Developer, Technical Manager &amp; Writer. I enjoy web-development, mentoring developers and finding pragmatic solutions to engineering problems.
+                </li>
+                <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    <div><a class="text-blue-500" href="https://hot-meal.github.io/" targe="_blank">Blog</a></div>
+                </li>
+            </ul>
         </>
     )
 }
@@ -124,26 +128,15 @@ function Skills() {
     return (
         <>
             <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
-                Technical Skills
+                Skills
                 <div className="absolute pt-px bg-white mt-px top-full w-full">
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
-                <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    I have over 15 years experience as a Web Developer, Technical Manager &amp; Writer.
-                </li>
-                <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div>I enjoy <strong className="text-ubt-gedit-orange">web-development, mentoring developers and finding pragmatic solutions to engineering problems.</strong></div>
-                </li>
-                <li className=" text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div><a class="text-blue-500" href="https://hot-meal.github.io/" targe="_blank">Personal Blog</a></div>
-                </li>
-            </ul>
             <div className="w-full md:w-10/12 flex mt-4">
-                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages & Tools</div>
-                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Tools</div>
             </div>
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 <div className="px-2 w-1/2">
@@ -155,7 +148,6 @@ function Skills() {
                         <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff" alt="hot-meal SASS" className="m-1" />
                         <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="hot-meal git" className="m-1" />
                         <img src="https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat&logo=GNU%20Bash&logoColor=white" alt="hot-meal bash" className="m-1" />
-                        <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=flat&logo=linux&logoColor=ffffff" alt="hot-meal linux" />
                     </div>
                 </div>
                 <div className="px-2 flex flex-wrap items-start w-1/2">
